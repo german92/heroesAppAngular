@@ -1,0 +1,15 @@
+<div>
+  <button type="button" name="button" ng-click = "myStyle = {'background-color': hero.secondaryColor}">{{hero.heroName}}</button>
+
+  <button ng-click = "toggleOnCall(hero)">Help!</button>
+
+  <ul ng-style = "myStyle">
+    <li>Hero Name: {{hero.heroName}}</li>
+    <li>Real Name: {{hero.heroName}}</li>
+    <li>Primary Color: {{hero.primaryColor}}</li>
+    <li>Secondary Color: {{hero.secondaryColor}}</li>
+    <li>Power Rating: {{hero.powerRating}}</li>
+  </ul>
+
+  <p ng-show="hero.onCall">Calling {{hero.heroName}}</p>
+</div>
