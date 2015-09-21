@@ -9,8 +9,8 @@ angular.module('sandbox.services')
         'Content-type': 'application/json',
         'Acept': 'application/json'
       },
-      // url: 'http://lit-chamber-2095.herokuapp.com/heros/1'
-      url: 'http://localhost:3000/heros.json'
+      url: 'http://lit-chamber-2095.herokuapp.com/heros.json'
+      // url: 'http://localhost:3000/heros.json'
     });
   };
 }]);
